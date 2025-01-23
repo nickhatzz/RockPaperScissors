@@ -1,12 +1,12 @@
 <h1>Rock Paper Scissors!</h1>
-<img src="https://github.com/user-attachments/assets/e4c99daf-dfd8-4095-b69b-47980e97fd5b" width=250/>
+<img src="https://github.com/user-attachments/assets/d22dcb82-10b6-47ce-a33f-3de4b579fe05" width=250/>
 <h3>A simple game for Android built in Android Studio</h3>
 <div align=center>
-  <img src="https://github.com/user-attachments/assets/8ae4dc71-6950-4af7-8984-e420777059c8" height=300/>
-  <img src="https://github.com/user-attachments/assets/9a9486b3-ae94-44f7-86ce-902df14bcbb4" height=300/>
-  <img src="https://github.com/user-attachments/assets/16013e1a-5243-477c-8ba1-9a976c827fde" height=300/>
-  <img src="https://github.com/user-attachments/assets/0b1785b2-1f7b-4ffd-96f5-c7cb70239ec6" height=300/>
-  <img src="https://github.com/user-attachments/assets/61c409e7-f901-40db-8e8f-d6e3c356bf96" height=300/>
+  <img src="https://github.com/user-attachments/assets/3ec16d2a-412f-44cd-83f0-b2862bb6cb9b" height=300/>
+  <img src="https://github.com/user-attachments/assets/f7b75edf-4fbc-459c-bf07-004dcaffda95" height=300/>
+  <img src="https://github.com/user-attachments/assets/c1099939-ade1-492a-bf8e-4c6278f1507d" height=300/>
+  <img src="https://github.com/user-attachments/assets/701ad29c-9bda-450b-b48f-35770a78a52e" height=300/>
+  <img src="https://github.com/user-attachments/assets/d8a6ca8a-d061-4f7e-a7b1-b01983be5681" height=300/>
 </div>
 
 <!-- FEATURES -->
