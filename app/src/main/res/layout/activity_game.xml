@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".GameActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton_scissors"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_paper"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_aiChoice"
+        app:srcCompat="@drawable/scissors_traditional" />
+
+    <ImageButton
+        android:id="@+id/imageButton_rock"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_paper"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_aiChoice"
+        app:srcCompat="@drawable/rock_traditional" />
+
+    <ImageView
+        android:id="@+id/imageView_aiChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_message"
+        app:srcCompat="@drawable/scissors_traditional" />
+
+    <ImageButton
+        android:id="@+id/imageButton_paper"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_aiChoice"
+        app:srcCompat="@drawable/paper_traditional" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView_confetti"
+        android:layout_width="1800dp"
+        android:layout_height="1000dp"
+        android:src="@drawable/confetti"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#FEF7FF"
+        android:fontFamily="@font/pixelify_sans"
+        android:text="Pick a move!"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_newGame"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#F3F4F4"
+        android:fontFamily="@font/pixelify_sans"
+        android:text="New Game?"
+        android:textColor="#1F2222"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_paper"
+        app:strokeColor="#020303"
+        app:strokeWidth="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
